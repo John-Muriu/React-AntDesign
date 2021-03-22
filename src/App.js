@@ -2,7 +2,8 @@
 import './App.css';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.
 import AppHeader from './components/common/header'
-import AppHero from './components/home/hero'
+import AppHome from './views/home'
+
 import { Layout } from 'antd';
 
 // import { getInputClassName } from 'antd/lib/input/Input';
@@ -17,7 +18,7 @@ function App() {
         <AppHeader />
       </Header>
       <Content>
-        <AppHero />
+        <AppHome />
       </Content>
 
     </Layout>
