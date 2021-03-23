@@ -36,12 +36,9 @@ function AppHero() {
                                 <p>{item.content}</p>
                                 <div className="btnHolder">
                                     <Button type="primary" size="large">Learn more</Button>
-                                    <Button size="large"><i class=" fa fa-desktop" aria-hidden="true"></i>
+                                    <Button size="large"><i class=" fas fa-desktop"></i>
                                       Watch a Demo</Button>
-
                                 </div>
-
-
                             </div>
                         </div>
                     )
