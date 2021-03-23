@@ -12,7 +12,7 @@ function AppHeader() {
                 </div>
                 {/* <Anchor targetOffset="65"> */}
                 <Menu mode="horizontal" defaultSelectedKeys={['home']}>
-                    {/* <div className="mobileHidden"> */}
+                    {/* <div className="mobileHidden">  </div> */}
                     <Menu.Item key="home">Home</Menu.Item>
                     <Menu.Item key="about">About</Menu.Item>
                     <Menu.Item key="features">Features</Menu.Item>
@@ -22,6 +22,7 @@ function AppHeader() {
                     <Menu.Item key="contact">Contacts</Menu.Item>
                 </Menu>
                 {/* </Anchor> */}
+
             </div>
         </div>
 
