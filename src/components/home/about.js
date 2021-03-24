@@ -11,12 +11,14 @@ const items = [{
 },
 {
     key: '2',
-    title: 'software development company ',
+    icon: <i class="fa fa-desktop" aria-hidden="true"></i>,
+    title: 'webdesign ',
     content: 'class custom software solutions, elite software development teams and innovative cloud software to enterprise business across numerous industries',
 },
 {
     key: '3',
-    title: ' JohnTech delivers the be',
+    icon: <i class="fa fa-database" aria-hidden="true"></i>,
+    title: ' Database/ Storage',
     content: 'enterprise business across numerous industries',
 
 }
@@ -36,10 +38,19 @@ function AppAbout() {
                     </p>
                 </div>
                 <Row gutter={[16, 16]}>
-                    <Col span={8}> {items.icon}</Col>
-                    <Col span={8} >column  </Col>
-                    <Col span={8}> column </Col>
-
+                    {items.map(item => {
+                        return (
+                            <Col span={8} key={item.key}>
+                                <div className="content">
+                                    <div className="icon">
+                                        {item.icon}
+                                    </div>
+                                    <h3>{item.title}</h3>
+                                    <p>{item.content}</p>
+                                </div>
+                            </Col>
+                        )
+                    })}
                 </Row>
             </div>
         </div>
