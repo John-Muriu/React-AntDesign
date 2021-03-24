@@ -5,7 +5,8 @@ import { Row, Col } from 'antd';
 
 const items = [{
     key: '1',
-    icon: <i className="fa fa-pie-chart"></i>,
+    icon: <i class="fa fa-anchor" aria-hidden="true"></i>
+    ,
     title: 'Mobile developers',
     content: 'development company providing a complete software design and development service. JohnT',
 },
