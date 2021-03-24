@@ -5,6 +5,7 @@ import { Row, Col } from 'antd';
 
 const items = [{
     key: '1',
+    icon: <i className="fa fa-pie-chart"></i>,
     title: 'Mobile developers',
     content: 'development company providing a complete software design and development service. JohnT',
 },
@@ -17,8 +18,8 @@ const items = [{
     key: '3',
     title: ' JohnTech delivers the be',
     content: 'enterprise business across numerous industries',
-}
 
+}
 
 ]
 function AppAbout() {
@@ -35,7 +36,7 @@ function AppAbout() {
                     </p>
                 </div>
                 <Row gutter={[16, 16]}>
-                    <Col span={8}> column 1</Col>
+                    <Col span={8}> {items.icon}</Col>
                     <Col span={8} >column  </Col>
                     <Col span={8}> column </Col>
 
