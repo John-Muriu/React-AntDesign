@@ -2,6 +2,7 @@ import React from 'react';
 import AppHero from '../components/home/hero';
 import AppAbout from '../components/home/about'
 import AppFeature from '../components/home/faetures'
+import AppWork from '../components/home/work'
 
 function AppHome() {
     return (
@@ -9,6 +10,7 @@ function AppHome() {
             <AppHero />
             <AppAbout />
             <AppFeature />
+            <AppWork />
 
         </div>
     );

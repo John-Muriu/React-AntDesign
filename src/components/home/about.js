@@ -5,20 +5,20 @@ import { Row, Col } from 'antd';
 
 const items = [{
     key: '1',
-    icon: <i class="fa fa-anchor" aria-hidden="true"></i>
+    icon: <i className="fa fa-anchor" aria-hidden="true"></i>
     ,
     title: 'Mobile developers',
     content: 'development company providing a complete software design and development service. JohnT',
 },
 {
     key: '2',
-    icon: <i class="fa fa-desktop" aria-hidden="true"></i>,
+    icon: <i className="fa fa-desktop" aria-hidden="true"></i>,
     title: 'webdesign ',
     content: 'class custom software solutions, elite software development teams and innovative cloud software to enterprise business across numerous industries',
 },
 {
     key: '3',
-    icon: <i class="fa fa-database" aria-hidden="true"></i>,
+    icon: <i className="fa fa-database" aria-hidden="true"></i>,
     title: ' Database/ Storage',
     content: 'enterprise business across numerous industries',
 
