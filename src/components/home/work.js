@@ -27,7 +27,7 @@ const AppWork = () => {
                 </Button>
 
             </div>
-            <Modal title="HowItWorks" visible={isModalVisible} onCancel={handleCancel} footer={null}>
+            <Modal title="How our system works" visible={isModalVisible} onCancel={handleCancel} footer={null}>
                 <iframe width="100%" height="405" src="https://www.youtube.com/embed/rwjmyZUA2O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </Modal>
         </div>
