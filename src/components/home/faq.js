@@ -24,7 +24,7 @@ function AppFaq(key) {
                         <Panel header="where can i download the softwares" key="2">
                             <p>{text2}</p>
                         </Panel>
-                        <Panel header="How to access the cloud" key="3" disabled>
+                        <Panel header="How to access the cloud" key="3">
                             <p>{text3}</p>
                         </Panel>
                     </Collapse>
